@@ -1,1 +1,13 @@
-#include<stdio.h>
+void pop()
+{
+ int e;
+ if (top==-1)
+ {
+  printf("UNDERFLOW\n");
+ }
+ else
+ {
+ e=stack[top];
+ top=top-1;
+ }
+}
