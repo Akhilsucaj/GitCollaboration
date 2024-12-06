@@ -1,1 +1,15 @@
-#include<stdio.h>
+void push()
+{
+ int ele;
+  if(top>=n-1)
+   {
+     printf("stack is overflow\n");
+   }
+   else
+   {
+     printf("Enter the elements to be pushed\n");
+     scanf("%d",ele);
+     top=top+1;
+     stack[top]=ele;
+    }
+   }
