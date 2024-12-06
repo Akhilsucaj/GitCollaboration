@@ -1,1 +1,14 @@
-#include<stdio.h>
+void display()
+{
+ if(top==-1)
+ {
+   printf("UNDERFLOW");
+ }
+ else
+ {
+   for(int i=top;i>=-1;i--)
+   {
+     printf("\n%d\n",stack[i]);
+   }
+  }
+}  
